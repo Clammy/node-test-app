@@ -1,0 +1,21 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "description": "Hello Jenkins!",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clammy/node-test-app.git"
+  },
+  "scripts": {
+    "test": "jest --forceExit",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
