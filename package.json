@@ -8,7 +8,7 @@
     "url": "git+https://github.com/Clammy/node-test-app.git"
   },
   "scripts": {
-    "test": "jest --forceExit",
+    "test": "jest",
     "test:watch": "jest --watch"
   },
   "dependencies": {
